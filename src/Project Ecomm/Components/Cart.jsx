@@ -46,7 +46,7 @@ const Cart = ({cart,setCart}) => {
                 {cart.map((item)=>{
                     return(
                         <tr key={item.id}>
-                            <td><img src={item.image} height={'50px'} width={'50px'}/></td>
+                            <td><img src={item.image} alt="" height={'50px'} width={'50px'}/></td>
                             <td>{item.title}</td>
                             <td><button onClick={() => handleButtonClick(item.id, 'increment')}>+</button></td>
                             <td>{item.amount}</td>

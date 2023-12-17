@@ -18,12 +18,12 @@ const defaultOptions = {
 
 const About = ({Data}) => {
     const {aboutId}=useParams()
-    const data = Data.find((data)=>data.id==parseInt(aboutId))
+    const data = Data.find((data)=>data.id===parseInt(aboutId))
   return (
     <div className="About">
         <div className="right">
         <Tilt options={defaultOptions}>
-            <img src={data.image} style={{height:'400px'}}/>
+            <img src={data.image} alt="" style={{height:'400px'}}/>
         </Tilt>
         </div>
         <div className="left">
