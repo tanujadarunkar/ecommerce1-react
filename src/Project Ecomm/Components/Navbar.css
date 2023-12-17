@@ -1,0 +1,56 @@
+.navbar{
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+.navart{
+    height: 50px;
+    width: 80%;
+    background: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    flex: 1; 
+    padding: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+.Artbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width: 500px) {
+    .navart{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{ 
+        width: 100%;
+        margin-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navlogo{
+        margin-top: 60px;
+    }
+    .navdiv{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Artbtn {
+        margin-left: 0;
+        margin-top: 25px; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

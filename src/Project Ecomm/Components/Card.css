@@ -1,0 +1,12 @@
+.Card{
+    height: auto;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+}
+button{
+    background: orange;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
